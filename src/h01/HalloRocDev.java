@@ -6,6 +6,6 @@ package h01;
 public class HalloRocDev {
 
     public static void main(String[] args) {
-        System.out.println("Hallo mijn naam is kevin");
+        System.out.println("Nog een keer aangepast");
     }
 }
