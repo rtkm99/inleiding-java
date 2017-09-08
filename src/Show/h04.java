@@ -60,8 +60,26 @@ public class h04 extends Applet {
         g.drawRect(620 , 220 , 40 , 70);
         g.drawRect(693 , 100 , 40 , 190);
         g.drawRect(765 , 140 , 40 , 150);
-
-
+        g.setColor(Color.blue);
+        g.fillRect(125 , 375 , 300 , 100);
+        g.setColor(Color.yellow);
+        g.fillArc(175 , 400 , 200 , 50 , 0 , 360);
+        g.setColor(Color.black);
+        g.fillRoundRect(530 , 350 , 50 , 140 , 20 , 20);
+        g.setColor(Color.red);
+        g.fillOval(535 , 355 , 40 , 40);
+        g.setColor(Color.orange);
+        g.fillOval(535 , 400 , 40 ,40);
+        g.setColor(Color.green);
+        g.fillOval(535 , 445 , 40 ,40);
+        g.setColor(Color.black);
+        g.drawRoundRect(650 , 400 , 100 , 100 , 20 , 20);
+        g.setColor(Color.black);
+        g.fillOval(665 , 415 , 20 , 20);
+        g.fillOval(716 , 415 , 20 , 20);
+        g.fillOval(665 , 464 , 20 , 20);
+        g.fillOval(716 , 464 , 20 , 20);
+        
 
     }
 
