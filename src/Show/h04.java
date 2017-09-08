@@ -1,7 +1,7 @@
 package Show;
 
 
-//Voorbeeld 4.1
+//Opdracht 4.1 t/m 4.7
 
 import java.awt.*;
 import java.applet.*;
@@ -79,7 +79,7 @@ public class h04 extends Applet {
         g.fillOval(716 , 415 , 20 , 20);
         g.fillOval(665 , 464 , 20 , 20);
         g.fillOval(716 , 464 , 20 , 20);
-        
+
 
     }
 
