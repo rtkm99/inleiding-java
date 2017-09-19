@@ -1,6 +1,6 @@
-package Show;/*
+package Java_Opdrachten;/*
 
-@(#)Show.java 1.0 03/02/26
+@(#)h02_Applets.java 1.0 03/02/26
 
 *
 
@@ -14,8 +14,8 @@ Voorbeeld 2.1
 import java.awt.*;
 import java.applet.*;
 
-//een klasse met de naam Show van het type Applet
-public class Show extends Applet {
+//een klasse met de naam h02_Applets van het type Applet
+public class h02_Applets extends Applet {
 
     //een (lege) methode die de Applet initialiseert
     public void init() {

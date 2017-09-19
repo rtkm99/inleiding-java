@@ -1,4 +1,4 @@
-package Show;
+package Java_Opdrachten;
 
 
 //Opdracht 4.1 t/m 4.7
@@ -6,7 +6,7 @@ package Show;
 import java.awt.*;
 import java.applet.*;
 
-public class h04 extends Applet {
+public class h04_Tekenen extends Applet {
 
     public void init() {
     }
