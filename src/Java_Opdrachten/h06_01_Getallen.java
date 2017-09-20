@@ -5,9 +5,9 @@ import java.applet.*;
 
 
 public class h06_01_Getallen extends Applet {
-    int a;
-    int b;
-    int uitkomst;
+    double a;
+    double b;
+    double uitkomst;
 
     public void init() {
         a = 113;
