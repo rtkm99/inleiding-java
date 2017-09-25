@@ -27,7 +27,7 @@ public class h06_Getallen_Praktijkopdracht extends Applet {
 
     public void paint(Graphics g) {
         super.paint(g);
-        g.drawString("De uitkomst is:"+ uitkomst, 50, 50);
+        g.drawString("De uitkomst is :"+ uitkomst, 50, 50);
 
     }
 
