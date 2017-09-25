@@ -14,12 +14,12 @@ public class h08_01 extends Applet {
 
 
     public void init() {
-        tekstvak = new TextField("Klik op mij");
+        tekstvak = new TextField("'Gebruikersnaam'");
         knop = new Button("Ok");
         knop.addActionListener(new KnopListener());
         knop2 = new Button("Reset");
         knop2.addActionListener(new KnopListener());
-        label = new Label("Typ iets in, in dit tekstvak");
+        label = new Label("Gebruikersnaam:");
         tekstvak.addActionListener(new TekstvakListener());
         add(label);
         add(tekstvak);
@@ -44,7 +44,7 @@ public class h08_01 extends Applet {
 
     class KnopListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            tekstvak.setText(" ");
+            tekstvak.setText("");
             repaint();
         }
     }
