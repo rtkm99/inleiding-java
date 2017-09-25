@@ -1,10 +1,19 @@
-package Java_Opdrachten;
+package h05_Variabelen;
 
 import java.awt.*;
 import java.applet.*;
 
-public class h04_Tekenen_Praktijkopdracht extends Applet {
+public class h05_01 extends Applet {
 
+    Color opvulkleur;
+    Color lijnkleur;
+
+
+    public void init() {
+
+        opvulkleur = Color.MAGENTA;
+        lijnkleur = Color.BLACK;
+    }
 
     public void paint(Graphics g) {
         g.drawLine(50 , 30 , 250 , 30);
@@ -13,18 +22,18 @@ public class h04_Tekenen_Praktijkopdracht extends Applet {
         g.drawString("Rechthoek" , 120 , 180);
         g.drawRoundRect(50 , 200 , 200 , 100 , 40 , 40);
         g.drawString("Afgeronde rechthoek" , 90 , 320);
-        g.setColor(Color.magenta);
+        g.setColor(opvulkleur);
         g.fillRect(260 , 60 , 200 , 100);
-        g.setColor(Color.black);
+        g.setColor(lijnkleur);
         g.drawOval(260 , 60 , 200 , 100);
         g.drawString("Gevulde rechthoek met ovaal" , 270 , 180);
-        g.setColor(Color.magenta);
+        g.setColor(opvulkleur);
         g.fillOval(260 , 200 , 200 , 100);
-        g.setColor(Color.black);
+        g.setColor(lijnkleur);
         g.drawString("Gevulde ovaal" , 320 , 320);
-        g.setColor(Color.magenta);
+        g.setColor(opvulkleur);
         g.fillArc(470 , 60 , 200 , 100 , 0 , 60);
-        g.setColor(Color.black);
+        g.setColor(lijnkleur);
         g.drawOval(470 , 60 , 200 , 100);
         g.drawString("Taartpunt met ovaal eromheen" , 480 , 180);
         g.drawOval(535 , 225 , 70 , 70);

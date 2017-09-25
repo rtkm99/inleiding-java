@@ -1,10 +1,10 @@
-package Java_Opdrachten;
+package h05_Variabelen;
 
 
 import java.awt.*;
 import java.applet.*;
 
-public class h05_02_Variabelen extends Applet {
+public class h05_02 extends Applet {
     //declaratie.
     Color opvulkleur;
     Color lijnkleur;

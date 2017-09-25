@@ -1,10 +1,10 @@
-package Java_Opdrachten;
+package h06_Getallen;
 
 import java.awt.*;
 import java.applet.*;
 
 
-public class h06_01_Getallen extends Applet {
+public class h06_01 extends Applet {
     double a;
     double b;
     double uitkomst;

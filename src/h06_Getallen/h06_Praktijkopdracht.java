@@ -1,9 +1,9 @@
-package Java_Opdrachten;
+package h06_Getallen;
 
 import java.awt.*;
 import java.applet.*;
 
-public class h06_Getallen_Praktijkopdracht extends Applet {
+public class h06_Praktijkopdracht extends Applet {
 
     private double cijfer1;
     private double cijfer2;
